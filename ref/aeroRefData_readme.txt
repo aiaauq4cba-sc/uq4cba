@@ -17,6 +17,11 @@ Point	Case 	Description				Mach	Alt(ft)	CL	Sideslip(deg)
 7	E	Low Mach Low altitude + sideslip	0.4	10000	0.5	3
 
 		
+*beta convention
+positive beta is such that aircraft's nose is pointing toward the left with
+respect to the incoming flow, such that the incoming flow hits the aircraft on
+the right hand side.
+
 *data format
 -each data file holds time history of all 64 pressure sensors
 -first col is time stamp in seconds. 
